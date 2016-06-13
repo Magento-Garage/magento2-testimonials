@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Credevlabz_Testimonials::testimonial" title="Testimonials" module="Credevlabz_Testimonials" sortOrder="80" parent="Magento_Backend::content_elements" action="testimonials/testimonial" resource="Credevlabz_Testimonials::testimonial"/>
+    </menu>
+</config>

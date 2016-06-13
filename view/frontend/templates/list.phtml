@@ -1,0 +1,15 @@
+<?php /** @var $block \Credevlabz\Testimonials\Block\TestimonialsList */ ?>
+<h1><?php echo __('Testimonials') ?></h1>
+<div class="row testimonials-post-list">
+<?php /** @var $post \Credevlabz\Testimonials\Model\Testimonial */ ?>
+<?php foreach ($block->getTestimonials() as $testimonial): ?>
+    <div class="container testimonial-list-item well">
+        <h4 class="testimonial-item-content">
+            <?php echo $testimonial->getContent(); ?>
+        </h4>
+        <div class="testimonial-item-meta">
+            <strong><?php echo __('Posted By:') ?></strong> <?php echo $testimonial->getName() ?>
+        </div>
+    </div>
+<?php endforeach; ?>
+</div>
