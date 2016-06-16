@@ -1,4 +1,12 @@
-<?php namespace Credevlabz\Testimonials\Setup;
+<?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Setup
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
+namespace Credevlabz\Testimonials\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

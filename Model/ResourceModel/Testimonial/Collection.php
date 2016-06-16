@@ -1,4 +1,12 @@
-<?php namespace Credevlabz\Testimonials\Model\ResourceModel\Testimonial;
+<?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Model
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
+namespace Credevlabz\Testimonials\Model\ResourceModel\Testimonial;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {

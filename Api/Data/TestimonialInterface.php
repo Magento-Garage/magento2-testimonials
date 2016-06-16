@@ -1,4 +1,11 @@
 <?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Api
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
 namespace Credevlabz\Testimonials\Api\Data;
 
 
@@ -7,7 +14,7 @@ interface TestimonialInterface
     /**
      * Constants for keys of data array. Identical to the name of the getter in snake case
      */
-    const TESTIMONIAL_ID       = 'testimonial_id';
+    const TESTIMONIAL_ID = 'testimonial_id';
     const NAME         = 'name';
     const EMAIL         = 'email';
     const CONTENT       = 'content';

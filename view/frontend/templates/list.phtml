@@ -1,7 +1,14 @@
-<?php /** @var $block \Credevlabz\Testimonials\Block\TestimonialsList */ ?>
+<?php
+ /*
+ * @var $block \Credevlabz\Testimonials\Block\TestimonialsList 
+ * @package Credevlabz/Testimonials
+ * @author Aman Srivastava <http://amansrivastava.in>
+ */ 
+?>
+
 <h1><?php echo __('Testimonials') ?></h1>
 <div class="row testimonials-post-list">
-<?php /** @var $post \Credevlabz\Testimonials\Model\Testimonial */ ?>
+<?php /** @var $testimonial \Credevlabz\Testimonials\Model\Testimonial */ ?>
 <?php foreach ($block->getTestimonials() as $testimonial): ?>
     <div class="container testimonial-list-item well">
         <h4 class="testimonial-item-content">

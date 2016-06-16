@@ -1,4 +1,11 @@
 <?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Block
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
 namespace Credevlabz\Testimonials\Block;
 
 use Credevlabz\Testimonials\Api\Data\TestimonialInterface;

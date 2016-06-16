@@ -1,4 +1,12 @@
-<?php namespace Credevlabz\Testimonials\Model;
+<?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Model
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
+namespace Credevlabz\Testimonials\Model;
 
 use Credevlabz\Testimonials\Api\Data\TestimonialInterface;
 use Magento\Framework\DataObject\IdentityInterface;
@@ -206,5 +214,4 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
     {
         return $this->setData(self::IS_ACTIVE, $is_active);
     }
-
 }

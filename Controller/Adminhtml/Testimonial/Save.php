@@ -1,4 +1,11 @@
 <?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Controller
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
 namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
 
 use Magento\Backend\App\Action;
@@ -30,7 +37,7 @@ class Save extends \Magento\Backend\App\Action
      */
     public function execute()
     {
-        $data = $this->getRequest()->getTestimonialValue();
+        $data = $this->getRequest()->getPostValue();
         /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
         $resultRedirect = $this->resultRedirectFactory->create();
         if ($data) {

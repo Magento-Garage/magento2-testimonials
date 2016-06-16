@@ -1,4 +1,11 @@
 <?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Block
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
 namespace Credevlabz\Testimonials\Block\Adminhtml\Testimonial\Edit;
 
 /**
@@ -55,10 +62,10 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
 
         /** @var \Magento\Framework\Data\Form $form */
         $form = $this->_formFactory->create(
-            ['data' => ['id' => 'edit_form', 'action' => $this->getData('action'), 'method' => 'testimonial']]
+            ['data' => ['id' => 'edit_form', 'action' => $this->getData('action'), 'method' => 'post']]
         );
 
-        $form->setHtmlIdPrefix('post_');
+        $form->setHtmlIdPrefix('data_');
 
         $fieldset = $form->addFieldset(
             'base_fieldset',

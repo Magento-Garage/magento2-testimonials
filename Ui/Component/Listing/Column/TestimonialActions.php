@@ -1,4 +1,11 @@
 <?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category UI/Component
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
 namespace Credevlabz\Testimonials\Ui\Component\Listing\Column;
 
 use Magento\Framework\View\Element\UiComponent\ContextInterface;

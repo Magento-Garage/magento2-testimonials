@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
+ * @package Credevlabz/Testimonials
+ * @author Aman Srivastava <http://amansrivastava.in>
  */
 -->
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
@@ -348,7 +348,7 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="resizeEnabled" xsi:type="boolean">false</item>
-                    <item name="resizeDefaultWidth" xsi:type="string">107</item>
+                    <item name="resizeDefaultWidth" xsi:type="string">110</item>
                     <item name="indexField" xsi:type="string">testimonial_id</item>
                 </item>
             </argument>

@@ -1,4 +1,11 @@
 <?php
+/* 
+ * @package Credevlabz/Testimonials
+ * @category Block
+ * @author Aman Srivastava <http://amansrivastava.in>
+ *
+ */
+
 namespace Credevlabz\Testimonials\Block\Adminhtml\Testimonial;
 
 class Edit extends \Magento\Backend\Block\Widget\Form\Container
@@ -71,7 +78,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
     public function getHeaderText()
     {
         if ($this->_coreRegistry->registry('testimonial')->getId()) {
-            return __("Edit testimonial '%1'", $this->escapeHtml($this->_coreRegistry->registry('testimonial')->getName()));
+            return __("Edit testimonial by '%1'", $this->escapeHtml($this->_coreRegistry->registry('testimonial')->getName()));
         } else {
             return __('New Testimonial');
         }
