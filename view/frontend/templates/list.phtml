@@ -19,4 +19,7 @@
         </div>
     </div>
 <?php endforeach; ?>
+<?php if ($block->getPagerHtml()): ?>
+        <div class="testimonials-toolbar toolbar bottom"><?php echo $block->getPagerHtml(); ?></div>
+    <?php endif ?>
 </div>
