@@ -6,3 +6,6 @@
 
 >$ php bin/magento setup:upgrade
 
+### What it does ?
+
+This module adds a testimonial section in admin panel where admin can add testimonials which will be listed in /testimonials page.
