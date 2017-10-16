@@ -9,3 +9,5 @@
 ### What it does ?
 
 This module adds a testimonial section in admin panel where admin can add testimonials which will be listed in /testimonials page.
+
+*Please feel free to log issues and change request based on your requirements. Open to accept pull requests too.*
