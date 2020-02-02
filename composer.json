@@ -1,5 +1,5 @@
 {
-	"name": "credevlabz/magento2-testimonials",
+	"name": "magento-garage/magento2-testimonials",
 	"description": "Magento2 module for testimonials.",
 	"type": "magento2-module",
 	"author": "Aman Srivastava <http://amansrivastava.in>",
@@ -15,7 +15,7 @@
 		"map": [
 			[
 				"*",
-				"Credevlabz/Testimonials"
+				"MagentoGarage/Testimonials"
 			]
 		]
 	}
