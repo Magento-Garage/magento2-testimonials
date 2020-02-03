@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <!--
 /**
+<<<<<<< HEAD
  * @package Credevlabz/Testimonials
+=======
+ * @package MagentoGarage/Testimonials
+>>>>>>> Updates
  * @author Aman Srivastava <http://amansrivastava.in>
  */
 -->
@@ -9,7 +13,11 @@
     <update handle="editor"/>
     <body>
         <referenceContainer name="content">
+<<<<<<< HEAD
             <block class="Credevlabz\Testimonials\Block\Adminhtml\Testimonial\Edit" name="testimonials_testimonial_edit"/>
+=======
+            <block class="MagentoGarage\Testimonials\Block\Adminhtml\Testimonial\Edit" name="magentogarage_testimonial_edit"/>
+>>>>>>> Updates
         </referenceContainer>
     </body>
 </page>

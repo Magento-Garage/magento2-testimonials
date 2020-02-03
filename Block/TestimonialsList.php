@@ -1,21 +1,21 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Block
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Block;
+namespace MagentoGarage\Testimonials\Block;
 
-use Credevlabz\Testimonials\Api\Data\TestimonialInterface;
-use Credevlabz\Testimonials\Model\ResourceModel\Testimonial\Collection as TestimonialCollection;
+use MagentoGarage\Testimonials\Api\Data\TestimonialInterface;
+use MagentoGarage\Testimonials\Model\ResourceModel\Testimonial\Collection as TestimonialCollection;
 
 class TestimonialsList extends \Magento\Framework\View\Element\Template implements
     \Magento\Framework\DataObject\IdentityInterface
 {
     /**
-     * @var \Credevlabz\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory
+     * @var \MagentoGarage\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory
      */
     protected $_testimonialCollectionFactory;
 
@@ -23,12 +23,12 @@ class TestimonialsList extends \Magento\Framework\View\Element\Template implemen
      * Construct
      *
      * @param \Magento\Framework\View\Element\Template\Context $context
-     * @param \Credevlabz\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory $testimonialCollectionFactory,
+     * @param \MagentoGarage\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory $testimonialCollectionFactory,
      * @param array $data
      */
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
-        \Credevlabz\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory $testimonialCollectionFactory,
+        \MagentoGarage\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory $testimonialCollectionFactory,
         array $data = []
     ) {
         parent::__construct($context, $data);
@@ -36,7 +36,7 @@ class TestimonialsList extends \Magento\Framework\View\Element\Template implemen
     }
 
     /**
-     * @return \Credevlabz\Testimonials\Model\ResourceModel\Testimonial\Collection
+     * @return \MagentoGarage\Testimonials\Model\ResourceModel\Testimonial\Collection
      */
     public function getTestimonials()
     {
@@ -87,7 +87,7 @@ class TestimonialsList extends \Magento\Framework\View\Element\Template implemen
      */
     public function getIdentities()
     {
-        return [\Credevlabz\Testimonials\Model\Testimonial::CACHE_TAG . '_' . 'list'];
+        return [\MagentoGarage\Testimonials\Model\Testimonial::CACHE_TAG . '_' . 'list'];
     }
 
 }

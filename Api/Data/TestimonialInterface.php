@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Api
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Api\Data;
+namespace MagentoGarage\Testimonials\Api\Data;
 
 
 interface TestimonialInterface
@@ -75,7 +75,7 @@ interface TestimonialInterface
      * Set ID
      *
      * @param int $id
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setId($id);
 
@@ -83,7 +83,7 @@ interface TestimonialInterface
      * Set name
      *
      * @param string $name
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setName($name);
 
@@ -91,7 +91,7 @@ interface TestimonialInterface
      * Set email
      *
      * @param string $email
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setEmail($email);
 
@@ -99,7 +99,7 @@ interface TestimonialInterface
      * Set content
      *
      * @param string $content
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setContent($content);
 
@@ -107,7 +107,7 @@ interface TestimonialInterface
      * Set creation time
      *
      * @param string $creationTime
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setCreationTime($creationTime);
 
@@ -115,7 +115,7 @@ interface TestimonialInterface
      * Set update time
      *
      * @param string $updateTime
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setUpdateTime($updateTime);
 
@@ -123,7 +123,7 @@ interface TestimonialInterface
      * Set is active
      *
      * @param int|bool $isActive
-     * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
      */
     public function setIsActive($isActive);
 }

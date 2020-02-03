@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Controller\Adminhtml\Testimonial;
 
 use Magento\Backend\App\Action;
 
@@ -44,7 +44,7 @@ class Edit extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Credevlabz_Testimonials::save');
+        return $this->_authorization->isAllowed('MagentoGarage_Testimonials::save');
     }
 
     /**
@@ -57,7 +57,7 @@ class Edit extends \Magento\Backend\App\Action
         // load layout, set active menu and breadcrumbs
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
         $resultPage = $this->resultPageFactory->create();
-        $resultPage->setActiveMenu('Credevlabz_Testimonials::testimonials')
+        $resultPage->setActiveMenu('MagentoGarage_Testimonials::testimonials')
             ->addBreadcrumb(__('Testimonial'), __('Testimonial'))
             ->addBreadcrumb(__('Manage Testimonials'), __('Manage Testimonials'));
         return $resultPage;
@@ -72,7 +72,7 @@ class Edit extends \Magento\Backend\App\Action
     public function execute()
     {
         $id = $this->getRequest()->getParam('testimonial_id');
-        $model = $this->_objectManager->create('Credevlabz\Testimonials\Model\Testimonial');
+        $model = $this->_objectManager->create('MagentoGarage\Testimonials\Model\Testimonial');
 
         if ($id) {
             $model->load($id);

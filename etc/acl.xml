@@ -4,10 +4,10 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Backend::content">
-                    <resource id="Credevlabz_Testimonials::testimonials" title="Testimonials" sortOrder="10" >
-                        <resource id="Credevlabz_Testimonials::testimonial" title="Testimonials" sortOrder="40">
-                            <resource id="Credevlabz_Testimonials::save" title="Save Testimonial" sortOrder="10" />
-                            <resource id="Credevlabz_Testimonials::testimonials_delete" title="Delete Testimonial" sortOrder="20" />
+                    <resource id="MagentoGarage_Testimonials::testimonials" title="Testimonials" sortOrder="10" >
+                        <resource id="MagentoGarage_Testimonials::testimonial" title="Testimonials" sortOrder="40">
+                            <resource id="MagentoGarage_Testimonials::save" title="Save Testimonial" sortOrder="10" />
+                            <resource id="MagentoGarage_Testimonials::testimonials_delete" title="Delete Testimonial" sortOrder="20" />
                         </resource>
                     </resource>
                 </resource>

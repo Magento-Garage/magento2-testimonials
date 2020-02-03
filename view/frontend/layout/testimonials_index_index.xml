@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @author Aman Srivastava <http://amansrivastava.in>
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
+        <head>
+            <title>Testimonials</title>
+        </head>
         <referenceContainer name="content">
-            <block class="Credevlabz\Testimonials\Block\TestimonialsList" name="testimonials.list" template="Credevlabz_Testimonials::list.phtml" />
+            <block class="MagentoGarage\Testimonials\Block\TestimonialsList" name="testimonials.list" template="MagentoGarage_Testimonials::list.phtml" />
         </referenceContainer>
     </body>
 </page>

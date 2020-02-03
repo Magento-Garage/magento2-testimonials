@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Controller\Adminhtml\Testimonial;
 
 use Magento\Backend\App\Action;
 use Magento\TestFramework\ErrorLog\Logger;
@@ -19,7 +19,7 @@ class Delete extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Credevlabz_Testimonials::delete');
+        return $this->_authorization->isAllowed('MagentoGarage_Testimonials::delete');
     }
 
     /**
@@ -34,7 +34,7 @@ class Delete extends \Magento\Backend\App\Action
         $resultRedirect = $this->resultRedirectFactory->create();
         if ($id) {
             try {
-                $model = $this->_objectManager->create('Credevlabz\Testimonials\Model\Testimonial');
+                $model = $this->_objectManager->create('MagentoGarage\Testimonials\Model\Testimonial');
                 $model->load($id);
                 $model->delete();
                 $this->messageManager->addSuccess(__('The testimonial has been deleted.'));

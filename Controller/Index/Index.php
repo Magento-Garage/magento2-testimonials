@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Index;
+namespace MagentoGarage\Testimonials\Controller\Index;
 
 use \Magento\Framework\App\Action\Action;
 
@@ -31,6 +31,7 @@ class Index extends Action
      */
     public function execute()
     {
-        return $this->resultPageFactory->create();
+        $resultFactory = $this->resultPageFactory->create();
+        return $resultFactory;
     }
 }

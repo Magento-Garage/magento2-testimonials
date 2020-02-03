@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Controller\Adminhtml\Testimonial;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
@@ -40,7 +40,7 @@ class Index extends \Magento\Backend\App\Action
     {
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
         $resultPage = $this->resultPageFactory->create();
-        $resultPage->setActiveMenu('Credevlabz_Testimonials::testimonial');
+        $resultPage->setActiveMenu('MagentoGarage_Testimonials::testimonial');
         $resultPage->addBreadcrumb(__('Testimonials'), __('Testimonials'));
         $resultPage->addBreadcrumb(__('Manage Testimonials'), __('Manage Testimonials'));
         $resultPage->getConfig()->getTitle()->prepend(__('Testimonials'));
@@ -55,7 +55,7 @@ class Index extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Credevlabz_Testimonials::testimonials');
+        return $this->_authorization->isAllowed('MagentoGarage_Testimonials::testimonials');
     }
 
 

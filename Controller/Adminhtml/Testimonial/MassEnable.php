@@ -1,16 +1,16 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Controller\Adminhtml\Testimonial;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Ui\Component\MassAction\Filter;
-use Credevlabz\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory;
+use MagentoGarage\Testimonials\Model\ResourceModel\Testimonial\CollectionFactory;
 use Magento\Framework\Controller\ResultFactory;
 
 /**

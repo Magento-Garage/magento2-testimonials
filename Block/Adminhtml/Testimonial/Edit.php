@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Block
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Block\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Block\Adminhtml\Testimonial;
 
 class Edit extends \Magento\Backend\Block\Widget\Form\Container
 {
@@ -39,12 +39,12 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
     protected function _construct()
     {
         $this->_objectId = 'testimonial_id';
-        $this->_blockGroup = 'Credevlabz_Testimonials';
+        $this->_blockGroup = 'MagentoGarage_Testimonials';
         $this->_controller = 'adminhtml_testimonial';
 
         parent::_construct();
 
-        if ($this->_isAllowedAction('Credevlabz_Testimonials::save')) {
+        if ($this->_isAllowedAction('MagentoGarage_Testimonials::save')) {
             $this->buttonList->update('save', 'label', __('Save Testimonials'));
             $this->buttonList->add(
                 'saveandcontinue',
@@ -63,7 +63,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
             $this->buttonList->remove('save');
         }
 
-        if ($this->_isAllowedAction('Credevlabz_Testimonials::testimonial_delete')) {
+        if ($this->_isAllowedAction('MagentoGarage_Testimonials::testimonial_delete')) {
             $this->buttonList->update('delete', 'label', __('Delete Testimonial'));
         } else {
             $this->buttonList->remove('delete');
