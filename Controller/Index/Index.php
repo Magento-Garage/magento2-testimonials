@@ -34,30 +34,4 @@ class Index extends Action
         $resultFactory = $this->resultPageFactory->create();
         return $resultFactory;
     }
-    public function add()
-    {
-        // 1. POST request : Get booking data
-        $post = (array) $this->getRequest()->getPost();
-
-        if (!empty($post)) {
-            // Retrieve your form data
-            $name   = $post['name'];
-            $email    = $post['email'];
-            $content = $post['content'];
-
-            // Doing-something with...
-
-            // Display the succes form validation message
-            $this->messageManager->addSuccessMessage(' Testimonials Added !');
-
-            // Redirect to your form page (or anywhere you want...)
-            $resultRedirect = $this->resultFactory->create(ResultFactory::TYPE_REDIRECT);
-            $resultRedirect->setUrl('/Testimonials/index/add');
-
-            return $resultRedirect;
-        }
-        // 2. GET request : Render the booking page 
-        $this->_view->loadLayout();
-        $this->_view->renderLayout();
-    }
 }
