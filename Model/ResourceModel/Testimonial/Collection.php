@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Model
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Model\ResourceModel\Testimonial;
+namespace MagentoGarage\Testimonials\Model\ResourceModel\Testimonial;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -22,7 +22,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
      */
     protected function _construct()
     {
-        $this->_init('Credevlabz\Testimonials\Model\Testimonial', 'Credevlabz\Testimonials\Model\ResourceModel\Testimonial');
+        $this->_init('MagentoGarage\Testimonials\Model\Testimonial', 'MagentoGarage\Testimonials\Model\ResourceModel\Testimonial');
     }
 
 }

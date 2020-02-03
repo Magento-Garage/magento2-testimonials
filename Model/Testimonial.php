@@ -1,14 +1,24 @@
 <?php
 /* 
+<<<<<<< HEAD
  * @package Credevlabz/Testimonials
+=======
+ * @package MagentoGarage/Testimonials
+>>>>>>> Updates
  * @category Model
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
+<<<<<<< HEAD
 namespace Credevlabz\Testimonials\Model;
 
 use Credevlabz\Testimonials\Api\Data\TestimonialInterface;
+=======
+namespace MagentoGarage\Testimonials\Model;
+
+use MagentoGarage\Testimonials\Api\Data\TestimonialInterface;
+>>>>>>> Updates
 use Magento\Framework\DataObject\IdentityInterface;
 
 class Testimonial  extends \Magento\Framework\Model\AbstractModel implements TestimonialInterface, IdentityInterface
@@ -45,7 +55,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      */
     protected function _construct()
     {
+<<<<<<< HEAD
         $this->_init('Credevlabz\Testimonials\Model\ResourceModel\Testimonial');
+=======
+        $this->_init('MagentoGarage\Testimonials\Model\ResourceModel\Testimonial');
+>>>>>>> Updates
     }
 
     /**
@@ -142,7 +156,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set ID
      *
      * @param int $id
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setId($id)
     {
@@ -153,7 +171,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set name
      *
      * @param string $name
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setName($name)
     {
@@ -164,7 +186,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set email
      *
      * @param string $email
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setEmail($email)
     {
@@ -175,7 +201,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set content
      *
      * @param string $content
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setContent($content)
     {
@@ -186,7 +216,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set creation time
      *
      * @param string $creation_time
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setCreationTime($creation_time)
     {
@@ -197,7 +231,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set update time
      *
      * @param string $update_time
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setUpdateTime($update_time)
     {
@@ -208,7 +246,11 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      * Set is active
      *
      * @param int|bool $is_active
+<<<<<<< HEAD
      * @return \Credevlabz\Testimonials\Api\Data\TestimonialInterface
+=======
+     * @return \MagentoGarage\Testimonials\Api\Data\TestimonialInterface
+>>>>>>> Updates
      */
     public function setIsActive($is_active)
     {

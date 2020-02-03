@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
+<<<<<<< HEAD
  * @package Credevlabz/Testimonials
+=======
+ * @package MagentoGarage/Testimonials
+>>>>>>> Updates
  * @author Aman Srivastava <http://amansrivastava.in>
  */
 -->
@@ -314,7 +318,11 @@
         </column>
         <column name="is_active">
             <argument name="data" xsi:type="array">
+<<<<<<< HEAD
                 <item name="options" xsi:type="object">Credevlabz\Testimonials\Model\Testimonial\Source\IsActive</item>
+=======
+                <item name="options" xsi:type="object">MagentoGarage\Testimonials\Model\Testimonial\Source\IsActive</item>
+>>>>>>> Updates
                 <item name="config" xsi:type="array">
                     <item name="filter" xsi:type="string">select</item>
                     <item name="component" xsi:type="string">Magento_Ui/js/grid/columns/select</item>
@@ -344,7 +352,11 @@
                 </item>
             </argument>
         </column>
+<<<<<<< HEAD
         <actionsColumn name="actions" class="Credevlabz\Testimonials\Ui\Component\Listing\Column\TestimonialActions">
+=======
+        <actionsColumn name="actions" class="MagentoGarage\Testimonials\Ui\Component\Listing\Column\TestimonialActions">
+>>>>>>> Updates
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="resizeEnabled" xsi:type="boolean">false</item>

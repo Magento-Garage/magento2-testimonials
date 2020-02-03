@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
         <route id="testimonials" frontName="testimonials">
-            <module name="Credevlabz_Testimonials" />
+            <module name="MagentoGarage_Testimonials" />
         </route>
     </router>
 </config>

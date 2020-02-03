@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Controller\Adminhtml\Testimonial;
 
 class NewAction extends \Magento\Backend\App\Action
 {
@@ -32,7 +32,7 @@ class NewAction extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Credevlabz_Testimonials::save');
+        return $this->_authorization->isAllowed('MagentoGarage_Testimonials::save');
     }
 
     /**

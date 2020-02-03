@@ -1,12 +1,20 @@
 <?php
 /* 
+<<<<<<< HEAD
  * @package Credevlabz/Testimonials
+=======
+ * @package MagentoGarage/Testimonials
+>>>>>>> Updates
  * @category UI/Component
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
+<<<<<<< HEAD
 namespace Credevlabz\Testimonials\Ui\Component\Listing\Column;
+=======
+namespace MagentoGarage\Testimonials\Ui\Component\Listing\Column;
+>>>>>>> Updates
 
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
 use Magento\Framework\View\Element\UiComponentFactory;

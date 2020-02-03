@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Model
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Model\ResourceModel;
+namespace MagentoGarage\Testimonials\Model\ResourceModel;
 
 /**
  * testimonials mysql resource
@@ -42,7 +42,7 @@ class Testimonial extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('credevlabz_testimonials', 'testimonial_id');
+        $this->_init('magentogarage_testimonials', 'testimonial_id');
     }
 
     /**
@@ -69,7 +69,7 @@ class Testimonial extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
      *
      * @param string $field
      * @param mixed $value
-     * @param \Credevlabz\Testimonials\Model\Testimonial $object
+     * @param \MagentoGarage\Testimonials\Model\Testimonial $object
      * @return \Zend_Db_Select
      */
     protected function _getLoadSelect($field, $value, $object)

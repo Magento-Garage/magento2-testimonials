@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Block
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Block\Adminhtml\Testimonial\Edit;
+namespace MagentoGarage\Testimonials\Block\Adminhtml\Testimonial\Edit;
 
 /**
  * Adminhtml testimonial edit form
@@ -57,7 +57,7 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
      */
     protected function _prepareForm()
     {
-        /** @var \Credevlabz\Testimonials\Model\Testimonial $model */
+        /** @var \MagentoGarage\Testimonials\Model\Testimonial $model */
         $model = $this->_coreRegistry->registry('testimonial');
 
         /** @var \Magento\Framework\Data\Form $form */

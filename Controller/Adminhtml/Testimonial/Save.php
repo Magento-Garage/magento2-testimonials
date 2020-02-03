@@ -1,12 +1,12 @@
 <?php
 /* 
- * @package Credevlabz/Testimonials
+ * @package MagentoGarage/Testimonials
  * @category Controller
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-namespace Credevlabz\Testimonials\Controller\Adminhtml\Testimonial;
+namespace MagentoGarage\Testimonials\Controller\Adminhtml\Testimonial;
 
 use Magento\Backend\App\Action;
 use Magento\TestFramework\ErrorLog\Logger;
@@ -27,7 +27,7 @@ class Save extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Credevlabz_Testimonials::save');
+        return $this->_authorization->isAllowed('MagentoGarage_Testimonials::save');
     }
 
     /**
@@ -41,8 +41,8 @@ class Save extends \Magento\Backend\App\Action
         /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
         $resultRedirect = $this->resultRedirectFactory->create();
         if ($data) {
-            /** @var \Credevlabz\Testimonials\Model\Testimonial $model */
-            $model = $this->_objectManager->create('Credevlabz\Testimonials\Model\Testimonial');
+            /** @var \MagentoGarage\Testimonials\Model\Testimonial $model */
+            $model = $this->_objectManager->create('MagentoGarage\Testimonials\Model\Testimonial');
 
             $id = $this->getRequest()->getParam('testimonial_id');
             if ($id) {
