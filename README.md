@@ -2,7 +2,7 @@
 
 ### How to install ?
   
->$ composer require credevlabz/magento2-testimonials  
+>$ composer require magento-garage/magento2-testimonials  
 
 >$ php bin/magento setup:upgrade
 
