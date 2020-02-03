@@ -1,24 +1,14 @@
 <?php
 /* 
-<<<<<<< HEAD
- * @package Credevlabz/Testimonials
-=======
  * @package MagentoGarage/Testimonials
->>>>>>> Updates
  * @category Model
  * @author Aman Srivastava <http://amansrivastava.in>
  *
  */
 
-<<<<<<< HEAD
-namespace Credevlabz\Testimonials\Model;
-
-use Credevlabz\Testimonials\Api\Data\TestimonialInterface;
-=======
 namespace MagentoGarage\Testimonials\Model;
 
 use MagentoGarage\Testimonials\Api\Data\TestimonialInterface;
->>>>>>> Updates
 use Magento\Framework\DataObject\IdentityInterface;
 
 class Testimonial  extends \Magento\Framework\Model\AbstractModel implements TestimonialInterface, IdentityInterface
@@ -55,11 +45,7 @@ class Testimonial  extends \Magento\Framework\Model\AbstractModel implements Tes
      */
     protected function _construct()
     {
-<<<<<<< HEAD
-        $this->_init('Credevlabz\Testimonials\Model\ResourceModel\Testimonial');
-=======
         $this->_init('MagentoGarage\Testimonials\Model\ResourceModel\Testimonial');
->>>>>>> Updates
     }
 
     /**
