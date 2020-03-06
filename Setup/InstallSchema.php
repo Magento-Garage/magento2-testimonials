@@ -10,11 +10,7 @@
  *
  */
 
-<<<<<<< HEAD
-namespace Credevlabz\Testimonials\Setup;
-=======
 namespace MagentoGarage\Testimonials\Setup;
->>>>>>> Updates
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
@@ -37,11 +33,7 @@ class InstallSchema implements InstallSchemaInterface
         $installer->startSetup();
 
         $table = $installer->getConnection()
-<<<<<<< HEAD
-            ->newTable($installer->getTable('credevlabz_testimonials'))
-=======
             ->newTable($installer->getTable('magentogarage_testimonials'))
->>>>>>> Updates
             ->addColumn(
                 'testimonial_id',
                 Table::TYPE_SMALLINT,
